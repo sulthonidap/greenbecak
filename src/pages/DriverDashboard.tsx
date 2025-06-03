@@ -281,7 +281,7 @@ const Profile: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <p className="text-sm text-gray-500">Kode Becak</p>
-              <p className="font-medium">BL-001</p>
+              <p className="font-medium">GT-001</p>
             </div>
             <div>
               <p className="text-sm text-gray-500">Status Becak</p>
@@ -323,7 +323,7 @@ const DriverDashboard: React.FC = () => {
           <div className="flex items-center h-16 px-4 bg-blue-900">
             <div className="flex items-center">
               <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
-                <span className="text-white text-sm font-bold">BL</span>
+                <span className="text-white text-sm font-bold">GT</span>
               </div>
               <span className="ml-2 text-white text-lg font-semibold">Driver Panel</span>
             </div>
@@ -356,7 +356,7 @@ const DriverDashboard: React.FC = () => {
           <div className="flex items-center justify-between bg-blue-800 border-b border-blue-700 px-4 py-2">
             <div className="flex items-center">
               <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
-                <span className="text-white text-sm font-bold">BL</span>
+                <span className="text-white text-sm font-bold">GT</span>
               </div>
               <span className="ml-2 text-white text-lg font-semibold">Driver</span>
             </div>

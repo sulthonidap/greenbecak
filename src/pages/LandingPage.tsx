@@ -24,7 +24,7 @@ const LandingPage: React.FC = () => {
                 Transportasi Masa Depan
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
-                Green<span className="text-yellow-300">Becak</span>
+                Green<span className="text-yellow-300">Trans</span>
               </h1>
               <p className="text-xl md:text-2xl mb-6 text-green-50">
                 Transportasi ramah lingkungan untuk mobilitas perkotaan yang lebih baik
@@ -75,7 +75,7 @@ const LandingPage: React.FC = () => {
             <div className="inline-block px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium mb-4">
               Keunggulan Kami
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Mengapa Memilih GreenBecak?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Mengapa Memilih GreenTrans?</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Kami menawarkan solusi transportasi yang efisien, nyaman dan ramah lingkungan untuk kebutuhan perjalanan Anda.
             </p>
@@ -170,7 +170,7 @@ const LandingPage: React.FC = () => {
               <div className="mb-6 h-16 flex items-center justify-center">
                 <MapPin size={40} className="text-green-800" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Pilih Becak</h3>
+              <h3 className="text-xl font-semibold mb-3">Pilih Moda Transportasi</h3>
               <p className="text-gray-600">
                 Masukkan kode becak yang tersedia di lokasi Anda.
               </p>
@@ -307,7 +307,7 @@ const LandingPage: React.FC = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-green-800 to-green-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Siap Untuk Mencoba GreenBecak?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Siap Untuk Mencoba GreenTrans?</h2>
           <p className="text-xl text-green-100 mb-10 max-w-3xl mx-auto">
             Bergabunglah dengan ribuan orang yang telah beralih ke transportasi ramah lingkungan. Pesan perjalanan pertama Anda sekarang!
           </p>

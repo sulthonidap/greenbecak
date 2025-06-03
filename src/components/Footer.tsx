@@ -8,9 +8,9 @@ const Footer: React.FC = () => {
           <div className="mb-6 md:mb-0">
             <div className="flex items-center">
               <div className="w-10 h-10 bg-green-800 rounded-full flex items-center justify-center">
-                <span className="text-white text-xl font-bold">BL</span>
+                <span className="text-white text-xl font-bold">GT</span>
               </div>
-              <span className="ml-2 text-xl font-semibold">GreenBecak</span>
+              <span className="ml-2 text-xl font-semibold">GreenTrans</span>
             </div>
             <p className="mt-2 text-sm text-gray-300">
               Transportasi ramah lingkungan untuk mobilitas perkotaan yang lebih baik.

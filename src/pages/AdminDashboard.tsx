@@ -325,7 +325,7 @@ const AdminDashboard: React.FC = () => {
           <div className="flex items-center h-16 px-4 bg-gray-900">
             <div className="flex items-center">
               <div className="w-8 h-8 bg-green-800 rounded-full flex items-center justify-center">
-                <span className="text-white text-sm font-bold">BL</span>
+                <span className="text-white text-sm font-bold">GT</span>
               </div>
               <span className="ml-2 text-white text-lg font-semibold">Admin Panel</span>
             </div>
@@ -358,7 +358,7 @@ const AdminDashboard: React.FC = () => {
           <div className="flex items-center justify-between bg-gray-800 border-b border-gray-700 px-4 py-2">
             <div className="flex items-center">
               <div className="w-8 h-8 bg-green-800 rounded-full flex items-center justify-center">
-                <span className="text-white text-sm font-bold">BL</span>
+                <span className="text-white text-sm font-bold">GT</span>
               </div>
               <span className="ml-2 text-white text-lg font-semibold">Admin</span>
             </div>
