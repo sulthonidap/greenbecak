@@ -5,6 +5,7 @@ export interface DistanceOption {
   name: string;
   distance: string;
   price: number;
+  destination: string;
 }
 
 export interface Order {
@@ -32,9 +33,9 @@ interface OrderContextType {
 const OrderContext = createContext<OrderContextType | undefined>(undefined);
 
 const distanceOptions: DistanceOption[] = [
-  { id: 'dekat', name: 'Dekat', distance: '< 3 km', price: 10000 },
-  { id: 'sedang', name: 'Sedang', distance: '3-7 km', price: 20000 },
-  { id: 'jauh', name: 'Jauh', distance: '> 7 km', price: 30000 }
+  { id: 'dekat', name: 'Dekat', distance: '< 3 km', price: 10000, destination: 'Benteng vredeburg, Bank Indonesia' },
+  { id: 'sedang', name: 'Sedang', distance: '3-7 km', price: 20000, destination: 'Taman Sari, Alun-Alun Selatan' },
+  { id: 'jauh', name: 'Jauh', distance: '> 7 km', price: 30000, destination: 'Tugu Jogja, Stasiun Lempuyangan' }
 ];
 
 export const OrderProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
