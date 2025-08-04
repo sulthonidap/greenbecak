@@ -81,11 +81,11 @@ const PaymentPage: React.FC = () => {
                   
                   <div className="flex justify-center p-4 bg-gray-50 rounded-lg">
                     <div className="w-48 h-48 bg-white p-4 flex items-center justify-center border border-gray-300 rounded">
-                      <div className="w-full h-full bg-gray-200 relative">
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <span className="text-gray-500 text-sm">QR Code Pembayaran</span>
-                        </div>
-                      </div>
+                      <img 
+                        src="/image/mockup-qr.png" 
+                        alt="QR Code Pembayaran" 
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                   </div>
                   
